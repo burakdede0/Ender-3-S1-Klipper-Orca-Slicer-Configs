@@ -1,0 +1,50 @@
+{
+    "bed_custom_model": "C:\\\\Users\\\\burak\\\\Documents\\\\3D_Printer\\\\e3s1_bed_model.stl",
+    "bed_custom_texture": "C:\\\\Users\\\\burak\\\\Documents\\\\3D_Printer\\\\e3s1_bed_texture_border.svg",
+    "before_layer_change_gcode": "",
+    "change_filament_gcode": "",
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 S1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": "SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}\n",
+    "machine_end_gcode": "; total layers count = [total_layer_count]\nEND_PRINT",
+    "machine_max_acceleration_extruding": [
+        "2000",
+        "500"
+    ],
+    "machine_max_acceleration_x": [
+        "2000",
+        "500"
+    ],
+    "machine_max_acceleration_y": [
+        "2000",
+        "500"
+    ],
+    "machine_max_speed_x": [
+        "300",
+        "500"
+    ],
+    "machine_max_speed_y": [
+        "300",
+        "500"
+    ],
+    "machine_pause_gcode": "[gcode_macro PAUSE]",
+    "machine_start_gcode": "SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\nstart_print BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer]\nG92 E0.0 ; reset extruder\nG1 X{first_layer_print_min[0]-15} Y{first_layer_print_min[1]} Z0.8 F6000.0 ; position 10mm left from the lower left of the first layer\nG1 X{first_layer_print_min[0]-15} Y{first_layer_print_min[1]+30} E30 F360.0 ; extrude 30mm of filament in the y direction\nG92 E0.0 ; reset extruder\nG1 E-0.5 F2100 ; small retraction\nG1 Y{first_layer_print_min[1]+40} F6000.0 ; move an additional 10mm without extruding\nG92 E0.0 ; reset extruder",
+    "name": "Ender 3 S1 - Klipper",
+    "nozzle_type": "brass",
+    "print_host": "192.168.1.3:8888",
+    "printer_settings_id": "Ender 3 S1 - Klipper",
+    "printhost_apikey": "test",
+    "retraction_length": [
+        "0.8"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "thumbnails": "32x32/PNG, 400x300/PNG",
+    "version": "2.3.0.3",
+    "z_hop": [
+        "0"
+    ]
+}

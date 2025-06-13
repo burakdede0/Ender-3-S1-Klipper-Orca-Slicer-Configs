@@ -1,0 +1,25 @@
+{
+    "filament_cost": [
+        "600"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_settings_id": [
+        "CUSTOM PLA"
+    ],
+    "from": "User",
+    "idle_temperature": [
+        "210"
+    ],
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "CUSTOM PLA",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "version": "2.3.0.3"
+}

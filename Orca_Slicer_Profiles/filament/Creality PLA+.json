@@ -1,0 +1,40 @@
+{
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "600"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_settings_id": [
+        "Creality PLA+"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "from": "User",
+    "idle_temperature": [
+        "150"
+    ],
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Creality PLA+",
+    "nozzle_temperature": [
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "205"
+    ],
+    "pressure_advance": [
+        "0.06"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "version": "2.3.0.3"
+}
