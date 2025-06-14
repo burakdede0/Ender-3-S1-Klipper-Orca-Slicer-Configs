@@ -2,6 +2,9 @@
     "default_filament_colour": [
         "#FFFFFF"
     ],
+    "enable_pressure_advance": [
+        "1"
+    ],
     "filament_cost": [
         "600"
     ],
@@ -29,6 +32,9 @@
     ],
     "nozzle_temperature_initial_layer": [
         "210"
+    ],
+    "pressure_advance": [
+        "0.08"
     ],
     "temperature_vitrification": [
         "55"
